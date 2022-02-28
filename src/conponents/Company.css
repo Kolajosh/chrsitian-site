@@ -12,7 +12,12 @@
 }
 .company-view {
   font-family: Roboto, sans-serif;
-  padding-left: 67%;
+  font-size: 1vw;
+  padding-left: 56%;
+}
+.company-view a {
+  text-decoration: none;
+  color: black;
 }
 .company-section-right {
   width: 25%;
@@ -27,4 +32,8 @@
 }
 .company-desc-bold-2 {
   font-weight: 600;
+}
+.contact-link-2 {
+  text-decoration: none;
+  color: #0f74b9;
 }

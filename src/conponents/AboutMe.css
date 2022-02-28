@@ -32,6 +32,7 @@
   font-size: 1vw;
   left: 52%;
   font-family: Roboto, sans-serif;
+  z-index: 1;
 }
 
 .about-section-right h2 {
@@ -53,4 +54,8 @@
   font-size: 1.5vw;
   padding-right: 7px;
   padding-top: 5px;
+}
+.blog a {
+  text-decoration: none;
+  color: black;
 }

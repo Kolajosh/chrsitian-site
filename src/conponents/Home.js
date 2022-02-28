@@ -11,7 +11,7 @@ function Home() {
           <p className="name-desc">Lead Partner at BlueSense</p>
           <div className="social-icons">
             <a
-              href="https://www.linkedin.com/in/christianreuben/"
+              href="https://www.linkedin.com/company/bluesensegroup/posts/?feedView=all&viewAsMember=true"
               target="_blank"
               rel="noreferrer"
               aria-label="linkedin"

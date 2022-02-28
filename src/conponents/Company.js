@@ -8,7 +8,11 @@ function Company() {
       <div className="company-section-left">
         <p className="company-title">Company Profile</p>
         <img src={company} alt=""></img>
-        <p className="company-view">View Profile</p>
+        <p className="company-view">
+          <a href="https://www.bluesense.co" target="_blank" rel="noreferrer">
+            View Company Site
+          </a>
+        </p>
       </div>
 
       <div className="company-section-right">
@@ -23,8 +27,24 @@ function Company() {
           elit. Pretium accumsan, Lorem{" "}
         </p>
         <p className="company-desc-bold-2">
-          Download Profile
-          <br /> Schedule Consultation
+          <a
+            href={require("./resources/Profile.pdf")}
+            target="_blank"
+            rel="noreferrer"
+            className="contact-link-2"
+          >
+            Download Profile
+          </a>
+          <br />{" "}
+          <a
+            href="https://www.bluesense.co/contact"
+            target="_blank"
+            rel="noreferrer"
+            className="contact-link-2"
+          >
+            {" "}
+            Schedule Consultation
+          </a>
         </p>
       </div>
     </>
