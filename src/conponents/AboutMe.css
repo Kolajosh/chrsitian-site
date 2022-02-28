@@ -1,0 +1,56 @@
+.about-section-left {
+  width: 30%;
+  position: absolute;
+  padding-top: 45%;
+  font-size: 1vw;
+  left: 12%;
+  font-family: Roboto, sans-serif;
+}
+.about-bold-desc {
+  font-weight: 600;
+}
+.year {
+  display: flex;
+}
+.year-no {
+  margin-top: -10%;
+  font-size: 3vw;
+  font-family: Poppins, sans-serif;
+}
+.year-text {
+  font-size: 1.7em;
+  padding-top: 10%;
+  font-family: Poppins, sans-serif;
+}
+
+/*------------------right section------------------------*/
+
+.about-section-right {
+  width: 30%;
+  position: absolute;
+  padding-top: 45%;
+  font-size: 1vw;
+  left: 52%;
+  font-family: Roboto, sans-serif;
+}
+
+.about-section-right h2 {
+  font-size: 2vw;
+}
+.about-section-right p {
+  font-size: 1vw;
+  font-family: PT sans, sans-serif;
+  margin-top: -20px;
+}
+.contact-mail {
+  padding-top: 50px;
+  font-size: 1.3vw;
+}
+.blog {
+  padding-top: 20%;
+}
+.blog i {
+  font-size: 1.5vw;
+  padding-right: 7px;
+  padding-top: 5px;
+}

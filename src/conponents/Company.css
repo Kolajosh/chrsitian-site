@@ -1,0 +1,23 @@
+.company-section-left {
+  width: 30%;
+  position: absolute;
+  padding-top: 77%;
+  font-size: 1vw;
+  left: 12%;
+  font-family: Roboto, sans-serif;
+}
+.company-section-left img {
+  width: 100%;
+  left: 25%;
+}
+.company-section-right {
+  width: 30%;
+  position: absolute;
+  padding-top: 81%;
+  font-size: 1vw;
+  left: 52%;
+  font-family: Roboto, sans-serif;
+}
+.company-desc-bold {
+  font-weight: 600;
+}

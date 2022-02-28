@@ -1,0 +1,59 @@
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.img-center {
+  width: 100%;
+}
+.img-center img {
+  position: absolute;
+  width: 40%;
+  left: 25%;
+}
+
+.name {
+  position: absolute;
+  font-family: Lovtony, sans-serif;
+  font-weight: 500;
+  font-size: 7vw;
+  top: 7%;
+  left: 12%;
+  z-index: -1;
+  color: #3a3a3a;
+}
+.name-desc {
+  position: absolute;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 1vw;
+  padding-top: 17%;
+  left: 12%;
+  z-index: -1;
+  color: #3a3a3a;
+}
+.text-right {
+  position: absolute;
+  padding-top: 17%;
+  left: 65%;
+  font-family: Roboto, sans-serif;
+  margin-right: 200px;
+}
+.text-right p {
+  font-size: 1vw;
+}
+.bold-desc {
+  font-weight: 600;
+}
+
+.social-icons {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 10px;
+  position: absolute;
+  padding-top: 30%;
+  left: 12%;
+}
+.social-icons i {
+  font-size: 1.5vw;
+}
