@@ -10,9 +10,30 @@ function Home() {
           <p className="name">Christian Reuben</p>
           <p className="name-desc">Lead Partner at BlueSense</p>
           <div className="social-icons">
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-twitter "></i>
-            <i class="fab fa-youtube"></i>
+            <a
+              href="https://www.linkedin.com/in/christianreuben/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="linkedin"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="https://twitter.com/xtianreuben"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="twitter"
+            >
+              <i class="fab fa-twitter "></i>
+            </a>
+            <a
+              href="https://www.youtube.com/c/ChristianReuben"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="youtube"
+            >
+              <i class="fab fa-youtube"></i>
+            </a>
           </div>
         </div>
         <div className="img-center">
@@ -33,7 +54,11 @@ function Home() {
           <p className="desc-contact">
             P: +234 806 578 4615
             <br />
-            E: christian@bluesense.co
+            E:
+            <a href="mailto:christian@bluesense.co" className="contact-link">
+              {" "}
+              christian@bluesense.co
+            </a>
           </p>
         </div>
       </div>

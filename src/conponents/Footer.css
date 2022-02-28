@@ -1,0 +1,21 @@
+.footer {
+  padding-top: 110%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.left-footer-text {
+  font-family: Roboto, sans-serif;
+  font-size: 1vw;
+  margin-left: 50px;
+}
+.right-footer-text {
+  margin-right: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 10px;
+}
+.right-footer-text i {
+  font-size: 1.5vw;
+  color: black;
+}

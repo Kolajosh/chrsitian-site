@@ -17,7 +17,7 @@
   font-family: Lovtony, sans-serif;
   font-weight: 500;
   font-size: 7vw;
-  top: 7%;
+  top: 4%;
   left: 12%;
   z-index: -1;
   color: #3a3a3a;
@@ -38,6 +38,7 @@
   left: 65%;
   font-family: Roboto, sans-serif;
   margin-right: 200px;
+  z-index: 1;
 }
 .text-right p {
   font-size: 1vw;
@@ -53,7 +54,16 @@
   position: absolute;
   padding-top: 30%;
   left: 12%;
+  z-index: 1;
 }
 .social-icons i {
   font-size: 1.5vw;
+}
+.social-icons a {
+  text-decoration: none;
+  color: #3a3a3a;
+}
+.contact-link {
+  text-decoration: none;
+  color: black;
 }

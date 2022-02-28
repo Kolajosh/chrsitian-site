@@ -7,8 +7,8 @@ function Company() {
     <>
       <div className="company-section-left">
         <p className="company-title">Company Profile</p>
-        <img src={company}></img>
-        <p className="company-title">View Profile</p>
+        <img src={company} alt=""></img>
+        <p className="company-view">View Profile</p>
       </div>
 
       <div className="company-section-right">
@@ -22,7 +22,7 @@ function Company() {
           Pretium accumsan, Lorem ipsum dolor sit amet, consectetur adipiscing
           elit. Pretium accumsan, Lorem{" "}
         </p>
-        <p className="company-desc-bold">
+        <p className="company-desc-bold-2">
           Download Profile
           <br /> Schedule Consultation
         </p>
