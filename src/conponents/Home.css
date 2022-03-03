@@ -1,3 +1,7 @@
+.font-face {
+  font-family: lovtony, sans-serif;
+  src: url("../fonts/LovtonyRegular.ttf") format("truetype");
+}
 .home-container {
   display: flex;
   justify-content: space-between;
@@ -14,7 +18,7 @@
 
 .name {
   position: absolute;
-  font-family: Lovtony, sans-serif;
+  font-family: lovtony, sans-serif;
   font-weight: 500;
   font-size: 7vw;
   top: 4%;
