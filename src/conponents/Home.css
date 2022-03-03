@@ -1,6 +1,10 @@
-.font-face {
-  font-family: lovtony, sans-serif;
-  src: url("../fonts/LovtonyRegular.ttf") format("truetype");
+@font-face {
+  font-family: "Lovtony";
+  src: local("LovtonyRegular"), local("lovtony regular"), local("lovtony"),
+    local("Lovtony") url(../fonts/LovtonyRegular.ttf) format("woff2")
+      url(../fonts/LovtonyRegular.ttf) format("tff");
+  font-style: normal;
+  font-weight: normal;
 }
 .home-container {
   display: flex;
@@ -18,7 +22,7 @@
 
 .name {
   position: absolute;
-  font-family: lovtony, sans-serif;
+  font-family: Lovtony, sans-serif;
   font-weight: 500;
   font-size: 7vw;
   top: 4%;
