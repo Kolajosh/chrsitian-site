@@ -29,23 +29,15 @@
   z-index: -1;
   color: #3a3a3a;
 }
-.name-desc {
-  position: absolute;
-  font-family: Roboto, sans-serif;
-  font-weight: 400;
-  font-size: 1vw;
-  padding-top: 17%;
-  left: 12%;
-  z-index: -1;
-  color: #3a3a3a;
-}
+
 .text-right {
   position: absolute;
-  padding-top: 17%;
+  padding-top: 16%;
   left: 65%;
-  font-family: Roboto, sans-serif;
-  margin-right: 200px;
-  z-index: 1;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-weight: 400;
+  margin-right: 100px;
+  z-index: 2;
 }
 .text-right p {
   font-size: 1vw;
@@ -55,13 +47,10 @@
 }
 
 .social-icons {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  grid-gap: 10px;
+  display: flex;
+  gap: 10px;
+  padding-top: 10px;
   position: absolute;
-  padding-top: 30%;
-  left: 12%;
-  z-index: 1;
 }
 .social-icons i {
   font-size: 1.5vw;
@@ -73,4 +62,46 @@
 .contact-link {
   text-decoration: none;
   color: black;
+}
+
+@media screen and (max-width: 660px) {
+  .home-container {
+    flex-direction: column;
+  }
+  .name {
+    position: absolute;
+    font-size: 40px;
+    left: 22%;
+    right: 25%;
+    top: 0%;
+    margin-left: 25px;
+    z-index: 1;
+  }
+  .img-center img {
+    position: relative;
+    width: 70%;
+    left: 0%;
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .text-right {
+    position: relative;
+    left: 0%;
+    padding-top: 0%;
+    margin-right: 25px;
+    margin-left: 25px;
+    z-index: 2;
+  }
+  .text-right p {
+    font-size: 15px;
+  }
+  .social-icons {
+    position: relative;
+    gap: 10px;
+  }
+  .social-icons i {
+    display: flex;
+    font-size: 24px;
+  }
 }

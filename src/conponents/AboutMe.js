@@ -1,4 +1,5 @@
 import React from "react";
+import { PopupButton } from "react-calendly";
 import "./AboutMe.css";
 
 function AboutMe() {
@@ -22,7 +23,7 @@ function AboutMe() {
         </p>
         <div className="year">
           <div className="year-no">
-            <h1>30</h1>
+            <h1>17</h1>
           </div>
           <div className="year-text">
             Years of <br />
@@ -32,37 +33,18 @@ function AboutMe() {
       </div>
 
       <div className="about-section-right">
-        <h2>Any type of Query & discussions?</h2>
-        <p>Lets talk with me.</p>
+        <h2>Book a Session with me</h2>
         <div className="contact-mail">
-          <h3>
-            <a href="mailto:christian@bluesense.co" className="contact-link">
-              {" "}
-              christian@bluesense.co
-            </a>
-          </h3>
-        </div>
-        <div className="blog">
-          <p>
-            Visit my blog for
-            <br />
-            interesting articles
-            <br />
-            <a
-              href="https://www.linkedin.com/company/bluesensegroup/posts/?feedView=all&viewAsMember=true"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i class="fab fa-linkedin"></i>
-            </a>
-            <a
-              href="https://christianreuben.medium.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i class="fab fa-medium"></i>
-            </a>
-          </p>
+          <PopupButton
+            className="pop-button"
+            url="https://calendly.com/christianreuben/20min"
+            /*
+             * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
+             * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
+             */
+            rootElement={document.getElementById("root")}
+            text="Click here to schedule!"
+          />
         </div>
       </div>
     </>

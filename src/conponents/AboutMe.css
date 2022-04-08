@@ -4,7 +4,7 @@
   padding-top: 45%;
   font-size: 1vw;
   left: 12%;
-  font-family: Roboto, sans-serif;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
 }
 .about-bold-desc {
   font-weight: 600;
@@ -31,10 +31,18 @@
   padding-top: 45%;
   font-size: 1vw;
   left: 52%;
-  font-family: Roboto, sans-serif;
+  font-family: Poppins, sans-serif;
   z-index: 1;
 }
-
+.pop-button{
+  padding: 20px;
+  border-radius: 30px;
+  border: none;
+  background: black;
+  color: white;
+  cursor: pointer;
+  font-size: 1vw;
+}
 .about-section-right h2 {
   font-size: 2vw;
 }
@@ -44,18 +52,6 @@
   margin-top: -20px;
 }
 .contact-mail {
-  padding-top: 50px;
+  padding-top: 20px;
   font-size: 1.3vw;
-}
-.blog {
-  padding-top: 20%;
-}
-.blog i {
-  font-size: 1.5vw;
-  padding-right: 7px;
-  padding-top: 5px;
-}
-.blog a {
-  text-decoration: none;
-  color: black;
 }
