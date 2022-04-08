@@ -34,7 +34,7 @@
   font-family: Poppins, sans-serif;
   z-index: 1;
 }
-.pop-button{
+.pop-button {
   padding: 20px;
   border-radius: 30px;
   border: none;
@@ -54,4 +54,52 @@
 .contact-mail {
   padding-top: 20px;
   font-size: 1.3vw;
+}
+
+@media screen and (max-width: 660px) {
+  .about-section-left {
+    position: relative;
+    width: 85%;
+    padding-top: 20px;
+    font-size: 15px;
+    left: 0%;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .year-no {
+    margin-top: -10%;
+    font-size: 24px;
+    font-family: Poppins, sans-serif;
+  }
+  .year-text {
+    font-size: 15px;
+    padding-top: 3%;
+    padding-left: 10px;
+    font-family: Poppins, sans-serif;
+  }
+  .about-section-right {
+    position: relative;
+    width: 85%;
+    padding-top: 0px;
+    left: 0%;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: Poppins, sans-serif;
+    z-index: 1;
+  }
+  .about-section-right h2 {
+    font-size: 20px;
+  }
+  .contact-mail {
+    padding-top: 0px;
+  }
+  .pop-button {
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+  }
 }

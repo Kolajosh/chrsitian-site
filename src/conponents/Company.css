@@ -1,7 +1,7 @@
-.contact-form{
+.contact-form {
   padding-top: 77%;
 }
-.contact-head{
+.contact-head {
   margin-left: 12%;
   padding-bottom: 20px;
   font-size: 1vw;
@@ -39,8 +39,7 @@
   width: 100%;
   border-radius: 10px;
   border: 1px solid black;
-  padding-left: 12px;
-  padding-top: 12px;
+  padding: 12px;
   word-wrap: break-word;
 }
 .cfield::placeholder {
@@ -110,7 +109,15 @@
   }
 }
 @media screen and (max-width: 660px) {
- 
+  .contact-head {
+    margin-left: 25px;
+    padding-bottom: 0px;
+    font-size: 15px;
+    font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  }
+  .contact-form {
+    padding-top: 50px;
+  }
   .form-flex {
     flex-direction: column;
     margin-left: 25px;
@@ -122,31 +129,26 @@
     margin-right: 25px;
     margin-bottom: 50px;
     margin-top: 10px;
-    text-align: left;
+    text-align: right;
   }
-  .details-head h2 {
-    font-size: 17px;
-  }
-  .details-body {
-    font-size: 13px;
-  }
+
   .cfield {
-    font-size: 13px;
+    font-size: 10px;
   }
   .mfield {
-    font-size: 13px;
+    font-size: 10px;
   }
   .form-btn {
-    font-size: 13px;
+    font-size: 10px;
   }
   .contact-head h1 {
     font-size: 20px;
   }
-  .cfield{
-    width: 70%;
+  .cfield {
+    width: 92%;
     height: 20px;
   }
-  .mfield{
-    width: 70%;
+  .mfield {
+    width: 92%;
   }
 }

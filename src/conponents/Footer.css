@@ -6,16 +6,31 @@
 }
 .left-footer-text {
   font-family: Roboto, sans-serif;
-  font-size: 1vw;
-  margin-left: 50px;
+  font-size: 12px;
+  margin-left: 25px;
 }
 .right-footer-text {
-  margin-right: 50px;
+  margin-right: 25px;
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  display: flex;
+  align-self: center;
   grid-gap: 10px;
 }
 .right-footer-text i {
-  font-size: 1.5vw;
+  font-size: 15px;
   color: black;
+}
+
+@media screen and (max-width: 660px) {
+  .footer {
+    flex-direction: column;
+  }
+  .left-footer-text {
+    text-align: center;
+    margin-right: 25px;
+  }
+  .right-footer-text {
+    text-align: center;
+    margin-left: 25px;
+  }
 }
