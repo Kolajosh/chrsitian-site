@@ -3,9 +3,9 @@
 }
 .contact-head {
   margin-left: 12%;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   font-size: 1vw;
-  font-family: Roboto, sans-serif;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
 }
 /*-----------------------------------------------------------*/
 
@@ -90,10 +90,6 @@
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 70px;
-  }
-  .contact-head {
-  }
-  .form-flex {
   }
   .form-button {
     margin-left: 100px;
