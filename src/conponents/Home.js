@@ -19,14 +19,15 @@ function Home() {
             Lead Partner at BlueSense
           </p>
           <p className="bold-desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium
-            accumsan, Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Pretium accumsan,
+            BlueSense is a business intelligence management consulting firm. We
+            are the trusted advisors to some of the country’s leading startups,
+            technology companies and a handful of international institutions.
           </p>
           <p className="desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium
-            accumsan, Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Pretium accumsan,
+            We work with leading organisations like yours across private, public
+            and nonprofit sectors to produce bankable results. Our expertise,
+            experience, scope, and knowledge of organisational challenges allow
+            us to address problems that no one else can.
           </p>
           <p className="desc-contact">
             P: +234 806 578 4615

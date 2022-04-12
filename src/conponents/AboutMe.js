@@ -8,18 +8,15 @@ function AboutMe() {
       <div className="about-section-left">
         <p className="about-title">About Me</p>
         <p className="about-bold-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium
-          accumsan, Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Pretium accumsan,
+          17+ years of experience within CX, Advisory, Strategy, Learning
+          Development, Operations, Finance, Training + Fire Engineering.
         </p>
         <p className="about-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium
-          accumsan, Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Pretium accumsan, Lorem ipsum dolor sit amet, consectetur adipiscing
-          elit. Pretium accumsan, Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Pretium accumsan, Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Pretium accumsan, Lorem ipsum dolor sit
-          amet, consectetur adipiscing elit. Pretium accumsan,
+          Worked with organisations across Europe, North America, and
+          Sub-Saharan Africa. Recent work focus has been centred around Strategy
+          Development, Leadership Development, Systems Engineering, Executive
+          Advisory, and driving Operational Improvements through Technology,
+          Digitisation, and People Development.
         </p>
         <div className="year">
           <div className="year-no">
