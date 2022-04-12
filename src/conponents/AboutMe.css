@@ -4,13 +4,19 @@
   padding-top: 45%;
   font-size: 1vw;
   left: 12%;
+  color: #666666;
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+}
+.about-title {
+  font-family: Poppins, sans-serif;
 }
 .about-bold-desc {
   font-weight: 600;
 }
 .year {
   display: flex;
+  gap: 10px;
+  color: #383838;
 }
 .year-no {
   margin-top: -10%;
@@ -32,19 +38,20 @@
   font-size: 1vw;
   left: 52%;
   font-family: Poppins, sans-serif;
+  color: #383838;
   z-index: 1;
 }
 .pop-button {
   padding: 20px;
   border-radius: 30px;
   border: none;
-  background: black;
+  background-color: rgb(52, 52, 52);
   color: white;
   cursor: pointer;
   font-size: 1vw;
 }
 .about-section-right h2 {
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 .about-section-right p {
   font-size: 1vw;

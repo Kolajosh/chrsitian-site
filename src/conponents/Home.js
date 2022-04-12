@@ -13,7 +13,7 @@ function Home() {
           <img src={chrishome} alt="" />
         </div>
         <div className="text-right">
-          <p className=" title">
+          <p className="title">
             Consultant | Adviser <br />
             <br />
             Lead Partner at BlueSense

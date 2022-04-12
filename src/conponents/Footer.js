@@ -4,6 +4,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <>
+      <hr className="line" />
       <div className="footer">
         <div className="left-footer-text">
           <p>

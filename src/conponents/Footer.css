@@ -1,8 +1,11 @@
 .footer {
-  padding-top: 5%;
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+.line {
+  margin-left: 25px;
+  margin-right: 25px;
 }
 .left-footer-text {
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
