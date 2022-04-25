@@ -1,9 +1,11 @@
-.about-section-left {
-  width: 30%;
-  position: absolute;
+.about-whole-section {
   padding-top: 45%;
+}
+.about-section-left {
+  margin-left: 100px;
+  flex: 1;
+  width: 50%;
   font-size: 1vw;
-  left: 12%;
   color: #666666;
   font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
 }
@@ -14,56 +16,99 @@
   font-weight: 600;
 }
 .year {
+  margin-top: -2%;
   display: flex;
   gap: 10px;
   color: #383838;
+  align-items: center;
 }
 .year-no {
-  margin-top: -10%;
-  font-size: 3vw;
+  font-size: 34px;
   font-family: Poppins, sans-serif;
 }
 .year-text {
-  font-size: 1.7em;
-  padding-top: 10%;
-  font-family: Poppins, sans-serif;
+  font-size: 24px;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+}
+
+.about-whole-section {
+  display: flex;
+  gap: 50px;
 }
 
 /*------------------right section------------------------*/
-
 .about-section-right {
-  width: 30%;
-  position: absolute;
-  padding-top: 45%;
+  flex: 1;
   font-size: 1vw;
-  left: 52%;
   font-family: Poppins, sans-serif;
   color: #383838;
   z-index: 1;
 }
+.about-contact-head {
+  padding-bottom: 10px;
+  font-size: 1vw;
+  font-family: Poppins, sans-serif;
+  color: #666666;
+}
+.about-form-flex {
+  margin-right: 100px;
+  width: 100%;
+}
+.about-cfield {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  height: 22px;
+  width: 85%;
+  font-size: 0.9vw;
+  background: #d0d0d0;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+}
+.about-mfield {
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  font-size: 0.9vw;
+  width: 85%;
+  background: #d0d0d0;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+}
 .pop-button {
   padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
   border-radius: 30px;
   border: none;
-  background-color: rgb(52, 52, 52);
+  background-color: rgb(89, 89, 89);
   color: white;
   cursor: pointer;
   font-size: 1vw;
 }
-.about-section-right h2 {
-  font-size: 1.5vw;
+.about-form-button {
+  margin-left: 100px;
+  margin-right: 11.5%;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  text-align: right;
 }
-.about-section-right p {
-  font-size: 1vw;
-  font-family: PT sans, sans-serif;
-  margin-top: -20px;
-}
-.contact-mail {
-  padding-top: 20px;
-  font-size: 1.3vw;
+.about-form-btn {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 30px;
+  font-size: 0.9vw;
+  border-radius: 40px;
+  background-color: rgb(89, 89, 89);
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-align: right;
 }
 
 @media screen and (max-width: 660px) {
+  .about-whole-section {
+    padding-top: 0%;
+    gap: 0px;
+  }
   .about-section-left {
     position: relative;
     width: 85%;
@@ -74,15 +119,15 @@
     margin-right: 25px;
   }
   .year-no {
-    margin-top: -10%;
-    font-size: 24px;
+    font-size: 34px;
     font-family: Poppins, sans-serif;
   }
   .year-text {
-    font-size: 15px;
-    padding-top: 3%;
-    padding-left: 10px;
-    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
+  }
+  .about-whole-section {
+    flex-direction: column;
   }
   .about-section-right {
     position: relative;
@@ -94,19 +139,36 @@
     font-family: Poppins, sans-serif;
     z-index: 1;
   }
-  .about-section-right h2 {
-    font-size: 20px;
-  }
-  .contact-mail {
-    padding-top: 0px;
-  }
   .pop-button {
     padding: 20px;
     border-radius: 30px;
     border: none;
-    background: black;
+    background-color: rgb(89, 89, 89);
     color: white;
     cursor: pointer;
     font-size: 12px;
+  }
+  .about-cfield {
+    font-size: 10px;
+    width: 100%;
+  }
+  .about-mfield {
+    font-size: 10px;
+    width: 100%;
+  }
+  .about-form-btn {
+    font-size: 10px;
+  }
+  .about-form-button {
+    margin-left: 25px;
+    margin-right: -5%;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    text-align: right;
+  }
+  .about-contact-head {
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   }
 }
