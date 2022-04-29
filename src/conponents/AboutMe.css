@@ -11,6 +11,7 @@
 }
 .about-title {
   font-family: Poppins, sans-serif;
+  font-weight: 700;
 }
 .about-bold-desc {
   font-weight: 600;
@@ -18,13 +19,13 @@
 .year {
   margin-top: -2%;
   display: flex;
-  gap: 10px;
+  gap: 4px;
   color: #383838;
   align-items: center;
 }
 .year-no {
   font-size: 34px;
-  font-family: Poppins, sans-serif;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
 }
 .year-text {
   font-size: 24px;
@@ -48,6 +49,7 @@
   padding-bottom: 10px;
   font-size: 1vw;
   font-family: Poppins, sans-serif;
+  font-weight: 700;
   color: #666666;
 }
 .about-form-flex {
@@ -75,14 +77,15 @@
 }
 .pop-button {
   padding: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
   border-radius: 30px;
   border: none;
   background-color: rgb(89, 89, 89);
   color: white;
   cursor: pointer;
-  font-size: 1vw;
+  font-size: 1.4vw;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
 }
 .about-form-button {
   margin-left: 100px;
@@ -92,7 +95,7 @@
   text-align: right;
 }
 .about-form-btn {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Gill Sans MT, GillSans-Light, Gill Sans Light, sans-serif;
   padding: 10px 30px;
   font-size: 0.9vw;
   border-radius: 40px;
