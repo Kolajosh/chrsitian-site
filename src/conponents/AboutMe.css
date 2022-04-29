@@ -134,7 +134,7 @@
   }
   .about-section-right {
     position: relative;
-    width: 85%;
+    width: 80%;
     padding-top: 0px;
     left: 0%;
     margin-left: 25px;
@@ -154,6 +154,7 @@
   .about-cfield {
     font-size: 10px;
     width: 100%;
+    margin-right: 25px;
   }
   .about-mfield {
     font-size: 10px;
@@ -164,7 +165,7 @@
   }
   .about-form-button {
     margin-left: 25px;
-    margin-right: -5%;
+    margin-right: -8%;
     margin-bottom: 50px;
     margin-top: 10px;
     text-align: right;
